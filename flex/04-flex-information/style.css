@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -5,16 +11,23 @@ body {
 img {
   width: 100px;
   height: 100px;
+  padding: 1rem;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin: 5px 5px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 5px;
 }
 
 /* do not edit this footer */
 .footer {
-  position: fixed;
+  /* position: sticky; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -23,4 +36,5 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+  margin-top: 1rem;
 }
